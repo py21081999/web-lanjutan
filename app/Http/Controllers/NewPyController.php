@@ -18,4 +18,11 @@ class NewPyController extends Controller
 	{
 		return view("semongko");
 	}
+
+	public function index()
+	{
+		return view("test-tema");
+	}
+
 }
+

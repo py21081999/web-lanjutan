@@ -23,6 +23,7 @@ use App\Http\Controllers\NewPyController;
 Route::get("/newpy/tarik", [NewPyController::class, "tarik"]);
 Route::get("/newpy/sist", [NewPyController::class, "sist"]);
 Route::get("/newpy/semongko", [NewPyController::class, "semongko"]);
+Route::get("/tema/bootstrap", [NewPyController::class, "index"]);
 
 /* Controller baru 2 */
 use App\Http\Controllers\PyController;
